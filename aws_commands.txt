@@ -1,0 +1,4 @@
+ssh -i "C:\Users\TURRIS\Downloads\Mel-Tech-Key.pem" ubuntu@13.40.2.59
+chmod 400 Mel-Tech-Key.pem
+sudo apt update
+sudo apt install -y nginx
